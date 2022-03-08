@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.btn-wrapper {
+  margin-top: 20px;
+}
+
 .button-red {
   background-color: #d20000;
   color: white;
@@ -169,8 +173,12 @@ footer .copyright {
   font-weight: 500;
 }
 
+.review-header {
+  margin-top: 40px;
+}
+
 #wpsl-wrap {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=ayacat.css.map */

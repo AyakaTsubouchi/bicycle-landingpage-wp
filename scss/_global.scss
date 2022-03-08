@@ -3,7 +3,9 @@ $heading-font: "Merriweather", serif;
 $heading-font: "Roboto", sans-serif;
 $accent-color: #d20000;
 $body-font: "helvetica", sans-serif;
-
+.btn-wrapper{
+    margin-top: 20px;
+}
 .button-red {
     background-color: $accent-color;
     color: white;

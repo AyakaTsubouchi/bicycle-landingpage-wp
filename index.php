@@ -8,7 +8,9 @@
 				<div class="text-wrapper">
 					<h1>For the mobility of the future.</h1>
 				</div>
-				<a href="#find-stores" class="button-red">Find Store</a>
+				<div class="btn-wrapper">
+					<a  class="button-red" href="#find-stores">Find Store</a>
+				</div>
 			</div>
 			<div class="col-md-6 col-sm-12">
 
