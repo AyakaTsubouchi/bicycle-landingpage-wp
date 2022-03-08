@@ -1,0 +1,44 @@
+.hero {
+    background-image: url("../img/hero.jpeg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    @media (max-width:738px) {
+        height: 50vh;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    @media (max-width:400px) {
+        height: auto;
+    }
+    .container {
+        height: 100vh;
+        @media (max-width:738px) {
+            height: auto;
+        }
+        @media (max-width:400px) {
+            height: auto;
+        }
+        display: table;
+        .row {
+            vertical-align: middle;
+            display: table-cell;
+            h1 {
+                text-shadow: 5px 3px 6px rgba(0,0,0,0.8);
+            }
+        }
+    }
+}
+.carousel{
+    min-height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    h5{
+        font-weight: 500;
+    }
+}
+#wpsl-wrap{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
